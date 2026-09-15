@@ -6,7 +6,9 @@ public class Main {
             uczen uczen = new uczen("Małgosia", 7);
         System.out.println(osoba);
         System.out.println(uczen);
+        uczen.wykonajDuzur();
         Nauczyciel nauczyciel = new Nauczyciel("Joanna", "muzyka");
         System.out.println(nauczyciel);
+        nauczyciel.wykonajDuzur();
         }
     }

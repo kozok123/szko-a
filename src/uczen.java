@@ -1,4 +1,4 @@
-public class uczen extends Osoba {
+public class uczen extends Osoba implements Dyzurny{
     private int nrUcznia;
     private static int liczbaUczniowie;
 
@@ -17,5 +17,10 @@ public class uczen extends Osoba {
                 "imię: " + getImie() +
                 "nrUcznia=" + nrUcznia +
                 '}';
+    }
+
+    @Override
+    public void wykonajDuzur() {
+        System.out.println("Podlewanie kwiatów");
     }
 }

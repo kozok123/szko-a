@@ -1,4 +1,4 @@
-public class Nauczyciel extends Osoba {
+public class Nauczyciel extends Osoba implements Dyzurny {
     private String przemiot;
 
     public Nauczyciel(String imie, String przemiot) {
@@ -12,5 +12,10 @@ public class Nauczyciel extends Osoba {
                 "imię: "+ getImie()+
                 "przemiot='" + przemiot +
                 '}';
+    }
+
+    @Override
+    public void wykonajDuzur() {
+        System.out.println("Spacer po korytarzu");
     }
 }
