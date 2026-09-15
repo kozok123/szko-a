@@ -2,7 +2,8 @@ public class uczen extends Osoba {
     private int nrUcznia;
     private static int liczbaUczniowie;
 
-
+    //static pole klasy a nie obiektu
+    //moze sluzyc do zliczenia liczby instancji
     public uczen(String imie, int wiek) {
         super(imie, wiek);
         liczbaUczniowie ++;
