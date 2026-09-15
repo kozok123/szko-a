@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
             Osoba osoba = new uczen("Jaś", 8);
             uczen uczen = new uczen("Małgosia", 7);
+            uczen uczen2 = new uczen("Ziosia", 7);
+            uczen uczen3 = new uczen("Filip", 7);
         System.out.println(osoba);
         System.out.println(uczen);
         uczen.wykonajDuzur();
@@ -11,4 +13,7 @@ public class Main {
         System.out.println(nauczyciel);
         nauczyciel.wykonajDuzur();
         }
+        Wychowawca wychowawca = new Wychowawca("Tadeucz", "matematyka");
+        Klasa klasa1p = new Klasa("1p", wychowawca);
+        klasa
     }
